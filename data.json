@@ -1,0 +1,175 @@
+{"intents": [
+  {"tag": "noanswer",
+   "patterns": [],
+   "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+   "context": [""]
+  },
+  {"tag": "greeting",
+   "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+   "responses": ["Hi there,How can I help you?", "Hello!,How may I help you?"],
+   "context": [""]
+  },
+  {"tag": "goodbye",
+   "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+   "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+   "context": [""]
+  },
+  {"tag": "thanks",
+   "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+   "responses": ["Happy to help!", "Any time!", "My pleasure"],
+   "context": [""]
+  },
+  
+  {"tag": "options",
+   "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+   "responses": ["I can guide you through UG and PG courses in the college and I can provide you with the Admin office faculty details", " I can help you with the Admin office faculty details and give details about UG and PG courses in the college"],
+   "context": [""]
+  },
+  {"tag": "courses",
+   "patterns": ["can i know about the courses available", "what courses are there in this college", "what streams are there in this college", "degree programmes in this college"],
+   "responses": ["Do you want to know about PG or UG courses?"],
+   "context": [""]
+  },
+  {"tag": "ug_courses",
+   "patterns": ["Details about UG courses", "UG course details", "List of branches in B.Tech","B.Tech course details","under graduate course details"],
+   "responses": ["B.Tech - Computer Science and Engineering\nB.Tech - Computer Science and Business Systems\nB.Tech - CSE ( Data Science )\nB.Tech - CSE ( Artificial Intelligence and Machine Learning\nB.Tech - CSE ( Cyber Security )\nB.Tech - CSE ( Internet of Things )\nB.Tech - Artificial Intelligence and Data Science\nB.Tech - Electronics and Communication Engineering\nB.Tech - Information Technology\nB.Tech - Electrical and Electronics Engineering\nB.Tech - Mechanical Engineering\nB.Tech - Civil Engineering\nB.Tech - Electronics & Instrumentation Engineering\nB.Tech - Automobile Engineering"],
+   "context": [""]
+  },
+  {"tag": "pg_courses",
+   "patterns": ["Details about PG courses", "PG course details", "List of branches in M.Tech", "M.Tech course details","post graduate course details"],
+   "responses": ["M.Tech-Structural Engineering (CE)\nM.Tech-Highway Engineering(CE)\nM.Tech-Geo-Technical Engineering(CE)\nM.Tech-Power Electronics (EEE)\nM.Tech-Power Systems(EEE)\nM.Tech-Advanced Manufacturing Systems(ME)\nM.Tech-CAD/CAM(ME)\n M.Tech-Embedded Systems(ECE)\n M.Tech-VLSI Systems Design(ECE)\n M.Tech- Defence Technology(ECE)\nM.Tech-Computer Science and Engineering(CSE)\n M.Tech-Software Engineering(CSE)\n M.Tech-Electronics & Instrumentation(EIE),M.Tech-Computer Networks & Information Security(IT)"],
+   "context": [""]
+  },
+  {"tag": "computer_science",
+   "patterns": ["I want to know about computer science", "Details about CSE", "cse details", "cse branch"],
+   "responses": ["CSE\nYear of Establishment - 1995\nIntake = 240"],
+   "context": [""]
+  },
+  {"tag": "computer_science_business_system",
+   "patterns": ["I want to know about computer science and business system", "Details about CSBS", "csbs details", "csbs branch"],
+   "responses": ["CSBS\nYear of Establishment - 2019\nIntake = 60"],
+   "context": [""]
+  },
+  {"tag": "computer_science_data_science",
+   "patterns": ["I want to know about data science", "Details about CS-DS", "cs ds details", "cs-ds branch"],
+   "responses": ["CS-DS\nYear of Establishment - 2020\nIntake = 120"],
+   "context": [""]
+  },
+  {"tag": "computer_science_aiml",
+   "patterns": ["I want to know about artifical intelligence", "Details about CSE-AIML", "cse aiml details", "cse-aiml branch","cs aiml details"],
+   "responses": ["CS-AIML\nYear of Establishment - 2020\nIntake = 180"],
+   "context": [""]
+  },
+  {"tag": "computer_science_cyber_security",
+   "patterns": ["I want to know about cyber security", "Details about CS-Cys", "cse cys details", "cs-cys branch","cs cys details"],
+   "responses": ["CS-CyS\nYear of Establishment - 2020\nIntake = 60"],
+   "context": [""]
+  },
+  {"tag": "computer_science_internet_of_things",
+   "patterns": ["I want to know about Internet of things", "Details about CS-IoT", "cse iot details", "cs iot branch","cs-iot branch","Details about CSE-IoT"],
+   "responses": ["CS-IOT\nYear of Establishment - 2020\nIntake = 60"],
+   "context": [""]
+  },
+  {"tag": "artificial_intelligence_and_data_science",
+   "patterns": ["I want to know about artifical intelligence and data science", "Details about AI-DS", "aids details", "aids branch"],
+   "responses": ["AI-DS\nYear of Establishment - 2021\nIntake = 60"],
+   "context": [""]
+  },
+  {"tag": "electronics_and_communication_engineering_ug",
+   "patterns": ["I want to know about electronics and communication", "Details about ECE", "ece details", "ece branch"],
+   "responses": ["ECE\nYear of Establishment - 1995\nIntake = 240"],
+   "context": [""]
+  },
+  {"tag": "information_technology_ug",
+   "patterns": ["I want to know about information technology ", "Details about IT", "IT details", "IT branch"],
+   "responses": ["IT\nYear of Establishment - 1997\nIntake = 180"],
+   "context": [""]
+  },
+  {"tag": "electrical_and_electronics_engineering_ug",
+   "patterns": ["I want to know about electrical and electronics engineering", "Details about EEE", "eee details", "eee branch"],
+   "responses": ["EEE\nYear of Establishment - 1995\nIntake = 120"],
+   "context": [""]
+  },
+  {"tag": "mechanical_engineering_ug",
+   "patterns": ["I want to know about mechanical engineering ", "Details about ME", "ME details", "ME branch","MECH details"],
+   "responses": ["ME\nYear of Establishment - 1995\nIntake = 120"],
+   "context": [""]
+  },
+  {"tag": "civil_engineering_ug",
+   "patterns": ["I want to know about civil engineering", "Details about CE", "CE details", "CE branch"],
+   "responses": ["CE\nYear of Establishment - 2001\nIntake = 120"],
+   "context": [""]
+  },
+  {"tag": "electronic_and_instrumentation_engineering_ug",
+   "patterns": ["I want to know about electronic and instrumentation engineering", "Details about EIE", "eie details", "eie branch"],
+   "responses": ["EIE\nYear of Establishment - 1999\nIntake = 120"],
+   "context": [""]
+  },
+  {"tag": "automobile_engineering",
+   "patterns": ["I want to know about automobile engineering", "Details about AE", "AE details", "AE branch"],
+   "responses": ["AE\nYear of Establishment - 2010\nIntake = 60"],
+   "context": [""]
+  },
+  {"tag": "civil_engineering_pg",
+  "patterns": ["Details about PG courses in civil engineering", "PG courses in civil engineering", "List of pg courses in civil engineering"],
+  "responses": ["M.Tech-Structural Engineering Intake = 18\nM.Tech-Highway Engineering Intake =18\nM.Tech-Geo-Technical Engineering Intake =18"],
+  "context": [""]
+ },
+ {"tag": "electronic_and_instrumentation_engineering_pg",
+   "patterns": ["Details about PG courses in electronic and intrumentation engineering", "PG courses in electronic and instrumentation engineering", "List of pg courses in electronic and instrumentation engineering"],
+   "responses": ["M.Tech-Electronics & Instrumentation Intake=18"],
+   "context": [""]
+  },
+  {"tag": "electrical_and_electronics_engineering_pg",
+  "patterns": ["Details about PG courses in electrical and electronic engineering", "PG courses in electrical and electronic engineering", "List of pg courses in electrical and electronic engineering"],
+  "responses": ["M.Tech-Power Electronics (EEE) Intake=18\nM.Tech-Power Systems(EEE) Intake=18"],
+  "context": [""]
+  },
+  {"tag": "mechanical_engineering_pg",
+  "patterns": ["Details about PG courses in mechanical engineering", "PG courses in mechanical engineering", "List of pg courses in mechanical engineering"],
+  "responses": ["M.Tech-Advanced Manufacturing Systems(ME) Intake=18\nM.Tech-CAD/CAM(ME) Intake=18"],
+  "context": [""]
+  },
+  {"tag": "electronics_and_communication_engineering_pg",
+   "patterns": ["Details about PG courses in electronics and communication engineering", "PG courses in electronics and communication engineering", "List of pg courses in electronics and communication engineering"],
+   "responses": ["M.Tech-Embedded Systems(ECE) Intake=18\nM.Tech-VLSI Systems Design(ECE) Intake=18\nM.Tech- Defence Technology(ECE) Intake=18"],
+   "context": [""]
+  },
+  {"tag": "computer_science_pg",
+   "patterns": ["Details about PG courses in computer science", "PG courses in computer science", "List of pg courses in computer science"],
+   "responses": ["M.Tech-Computer Science and Engineering(CSE) Intake = 18\nM.Tech-Software Engineering(CSE) Intake =18"],
+   "context": [""]
+  },
+  {"tag": "information_technology_pg",
+   "patterns": ["Details about PG courses in information technology", "PG courses in information technology", "List of pg courses in information technology"],
+    "responses": ["M.Tech-Computer Networks & Information Security(IT) Intake = 18"],
+   "context": [""]
+  },
+  {"tag":"placements_2022",
+   "patterns":["give me some details about placements in 2022","placement details in 2022","2022 placement records","recent placement details","placement record branch in 2022","placement details branch in 2022"],
+   "responses":["http://vnrvjiet.ac.in/vnrplacements2022.pdf"],
+   "context":[""]
+  },
+  {"tag":"placements_2021",
+   "patterns":["give me some details about placements in 2021","placement details in 2021","2020 placement records","placement record branch in 2021","placement details branch in 2021"],
+   "responses":["http://vnrvjiet.ac.in/vnrplacements2021.pdf"],
+   "context":[""]
+  },
+  {"tag":"placements_2020",
+   "patterns":["give me some details about placements in 2020","placement details in 2020","2020 placement records","placement record branch in 2020","placement details branch in 2020"],
+   "responses":["http://vnrvjiet.ac.in/vnrplacements2020.pdf"],
+   "context":[""]
+  },
+  {
+   "tag":"administration",
+   "patterns":["information about administration","administration details","admin office details"],
+   "responses":["Please contact :- \nK.Raju\tDesignation-Manager\nY. Venkateswara Rao\tDesignation-Security Supervisor\nM.Savitha Devi\tDesignation-Executive Assistant"],
+   "context":[""]
+  },
+  {
+    "tag":"transportation",
+    "patterns":["information about transportation facilities","transport details","transport management details"],
+    "responses":["Please contact K V Ramesh Babu\tDesignation-transport Manager"]
+  }
+ ]
+}
